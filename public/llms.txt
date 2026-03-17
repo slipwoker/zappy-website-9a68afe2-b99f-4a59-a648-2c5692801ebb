@@ -1,0 +1,49 @@
+# נתי שירותי חשמל — Generative Engine Optimization Map
+
+> A fully licensed and certified electrician business focused on delivering safe, reliable electrical services with strict adherence to safety standards and fast response times. The brand emphasizes precision, expertise, and customer satisfaction across residential and commercial projects, positioning itself as a trustworthy partner for all electrical needs.
+
+---
+
+## Pages
+
+### Home
+https://-9a68afe2.zappy5.app
+Licensed master electrician delivering safe, reliable electrical services for homes and businesses. Fast response, precision work, strict safety standards.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-9a68afe2.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-9a68afe2.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-9a68afe2.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+# Business Context (for LLM understanding)
+
+## About נתי שירותי חשמל
+A fully licensed and certified electrician business focused on delivering safe, reliable electrical services with strict adherence to safety standards and fast response times. The brand emphasizes precision, expertise, and customer satisfaction across residential and commercial projects, positioning itself as a trustworthy partner for all electrical needs.
+
+## Target Audience
+- New Homeowners
+- Property Managers
+- Renovation Contractors
+- Small Business Owners
+- Smart Home Enthusiasts
+
+## Industry
+Electrical Services
+
+---
+
+# Additional Resources
+
+- **Sitemap**: https://-9a68afe2.zappy5.app/sitemap.xml
+- **Robots.txt**: https://-9a68afe2.zappy5.app/robots.txt
