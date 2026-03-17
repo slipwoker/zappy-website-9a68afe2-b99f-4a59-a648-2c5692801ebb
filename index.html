@@ -317,16 +317,16 @@
 
   <nav class="navbar" style="background-color: transparent !important; box-shadow: none;">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu" data-element-type="button" data-element-id="btn-1773746740149-j8rcu2ds1" data-native-element="true">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="width: 24px !important; height: 24px !important; display: block !important;">
+    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="width: 24px !important; height: 24px !important; display: block !important;">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none !important; width: 24px !important; height: 24px !important;">
+    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none !important; width: 24px !important; height: 24px !important;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call" data-element-type="button" data-element-id="btn-1773746740149-dgoqljczc" data-native-element="true">
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px;">
+  <button class="phone-header-btn" data-phone="0505839814" aria-label="Call" data-element-type="button" data-element-id="btn-1773746740149-dgoqljczc" data-native-element="true">
+    <svg width="24" height="24" viewbox="0 0 24 24" fill="currentColor" style="width: 24px; height: 24px;">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -338,7 +338,7 @@
       </a>
     </div>
     
-    <ul class="nav-menu" id="navMenu"><li><a href="#services">שירותים</a></li></ul>
+    <ul class="nav-menu" id="navMenu"></ul>
     
     <div class="nav-cta-container"><li class="nav-cta-item"><a href="#zappy-section-6" class="nav-cta-btn">Contact</a></li></div>
   </div>
@@ -726,7 +726,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0505839814';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -773,14 +773,14 @@
 </script>
   
   <main>
-    <section class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim">
+    <section class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim" id="zappy-section-0" data-zappy-bg-type="image" data-zappy-bg-color="" data-zappy-bg-image="assets/site-home-hero-bg-1773747309847-5huy4o.webp?v=1773747310218" data-zappy-bg-overlay-color="#07111f" data-zappy-bg-overlay-opacity="27" data-zappy-bg-video-type="" data-zappy-bg-video-url="">
   <div class="home-hero-section__bg-wrapper">
-    <img data-hero-bg="true" data-placeholder="home-hero-bg" data-context="Professional licensed electrician working on a modern electrical panel in a bright, well-lit commercial or residential space. The electrician should be wearing safety gear, focused on precise electrical work. The image should convey expertise, safety, and professionalism. Warm natural lighting, clean modern environment, tools visible, sense of precision and trust. High-quality professional photography style." class="home-hero-section__bg-image" data-preserve-bg="0" width="1920" height="1080" src="/assets/site-home-hero-bg.webp" alt="Professional electrician performing certified electrical work">
+    <img data-hero-bg="true" data-placeholder="home-hero-bg" data-context="Professional licensed electrician working on a modern electrical panel in a bright, well-lit commercial or residential space. The electrician should be wearing safety gear, focused on precise electrical work. The image should convey expertise, safety, and professionalism. Warm natural lighting, clean modern environment, tools visible, sense of precision and trust. High-quality professional photography style." class="home-hero-section__bg-image zappy-editable-image" data-preserve-bg="0" width="1920" height="1080" src="/assets/site-home-hero-bg-1773747309847-5huy4o.webp?v=1773747310218" alt="Professional electrician performing certified electrical work" data-element-type="image" data-element-id="img-1773747194139-6xkr5ziu0" style="object-position: 50% 50%; object-fit: cover; width: 100%; height: 100%;" data-zappy-zoom="1">
   </div>
 
-  <div class="home-hero-section__scrim" aria-hidden="true"></div>
+  <div class="home-hero-section__scrim" aria-hidden="true" style="opacity: 0.29347826086956524"></div>
 
-  <div class="home-hero-section__pattern-overlay" aria-hidden="true"></div>
+  <div class="home-hero-section__pattern-overlay" aria-hidden="true" style="opacity: 0.29347826086956524"></div>
 
   <div class="home-hero-section__content-wrapper">
     <div class="home-hero-section__content">
@@ -788,7 +788,7 @@
       <h3 class="home-hero-section__subtitle">חשמלאי מוסמך לעבודות ביצוע פרויקטים, התקנת מטען רכב חשמלי<br></h3>
       
       <div class="home-hero-section__cta-row">
-        <a href="#contact" class="home-hero-section__btn home-hero-section__btn--primary">Request a Call Back</a>
+        <a href="#contact" class="home-hero-section__btn home-hero-section__btn--primary" data-element-type="button" data-element-id="btn-1773747194135-m2vddbhg2" data-native-element="true" style="outline: none;">התרשמתי, חזור אלי</a>
         
       </div>
 
@@ -797,12 +797,12 @@
   </div>
 
   <div class="home-hero-section__divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 80" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="home-hero-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <lineargradient id="home-hero-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#0B1C33;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#F5F7FA;stop-opacity:1"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,80 L0,50 Q300,35 600,50 T1200,50 L1200,80 Z" fill="#F5F7FA"></path>
       <path d="M0,50 Q300,35 600,50 T1200,50" stroke="rgba(255,210,74,0.25)" stroke-width="1" fill="#F5F7FA"></path>
@@ -810,25 +810,30 @@
   </div>
 </section>
 
-<section class="home-services-section" data-layout-spec="Home-services">
+<section class="home-services-section" data-layout-spec="Home-services" id="zappy-section-1">
   <div class="home-services-container">
     <div class="home-services-intro">
-      <h2>Services that cover home and business needs</h2>
-      <p>Focus on safety, clarity, and workmanship. Our certified electricians deliver reliable solutions with strict adherence to safety standards and fast response times.</p>
+      <h2>שירותי חשמל בדיוק בשביל מה שהבית שלך צריך</h2>
+      <p>
+
+שמים דגש על בטיחות, אמינות ומקצועיות ללא פשרות<br>מעניק פתרונות בטוחים ואמינים, תוך עמידה בתקני הבטיחות המחמירים ביותר וזמינות לתגובה מהירה</p>
     </div>
 
-    <div class="home-services-grid">
-      <div class="home-services-card">
-        <svg data-element-type="icon" data-icon-type="svg" class="home-services-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="home-services-grid zappy-preserve-css-grid" style="display: grid; grid-template-columns: 384px 384px 384px;" id="zappy-auto-grid-1773747421356-u02l66" data-zappy-auto-grid="true" data-original-item-width="384" data-original-gap="24px"><div class="home-services-card">
+        <div class="zappy-icon-alignment-wrapper" style="display: flex; width: 100%; justify-content: center;"><svg data-element-type="icon" data-icon-type="svg" class="home-services-icon" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-id="zappy-temp-icon-1773747708791-wmnqu0mp1" style="width: 50px !important; height: 50px !important; color: rgb(255, 212, 0);" width="50" height="50" data-size-adjusted="true">
           <path d="M24 4L20 20H28L24 44L32 24H20L24 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2" stroke-dasharray="4 4"></circle>
-        </svg>
-        <h3>Emergency Troubleshooting</h3>
-        <p>Rapid diagnostics and repairs for power outages, circuit failures, and electrical emergencies. Available 24/7 with strict safety protocols.</p>
-      </div>
+        </svg></div>
+        <h3 class="zappy-editable" style="text-align: center;">
 
-      <div class="home-services-card">
-        <svg data-element-type="icon" data-icon-type="svg" class="home-services-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+קריאות חירום ואיתור תקלות
+
+</h3>
+        <p class="zappy-editable" style="text-align: right;"><b>
+
+איתור תקלות ותיקון מהיר של הפסקות חשמל, קצרים חשמליים ותקלות דחופות<br>זמינות מלאה 24/7 ועמידה בתקני הבטיחות המחמירים ביותר</b></p>
+      </div><div class="home-services-card">
+        <div class="zappy-icon-alignment-wrapper" style="display: flex; width: 100%; justify-content: center;"><svg data-element-type="icon" data-icon-type="svg" class="home-services-icon" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-id="zappy-temp-icon-1773747726919-9guztjzt9" style="width: 50px !important; height: 50px !important; color: rgb(255, 212, 0);" width="50" height="50" data-size-adjusted="true">
           <rect x="8" y="6" width="32" height="36" rx="2" stroke="currentColor" stroke-width="2"></rect>
           <line x1="12" y1="12" x2="36" y2="12" stroke="currentColor" stroke-width="2"></line>
           <line x1="12" y1="18" x2="36" y2="18" stroke="currentColor" stroke-width="2"></line>
@@ -837,44 +842,53 @@
           <circle cx="16" cy="35" r="2" fill="currentColor"></circle>
           <circle cx="24" cy="35" r="2" fill="currentColor"></circle>
           <circle cx="32" cy="35" r="2" fill="currentColor"></circle>
-        </svg>
-        <h3>Panel Upgrades &amp; Circuits</h3>
-        <p>Modern electrical panel installations, circuit additions, and load balancing. Code-compliant work with detailed documentation and safety inspections.</p>
-      </div>
+        </svg></div>
+        <h3 class="zappy-editable" style="text-align: center;">
 
-      <div class="home-services-card">
-        <svg data-element-type="icon" data-icon-type="svg" class="home-services-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+לוחות חשמל ותשתיות
+
+</h3>
+        <p class="zappy-editable" style="text-align: right;"><b>
+
+התקנת לוחות חשמל מתקדמים, הוספת קווי כוח וחלוקת עומסים<br>עבודה בהתאם לתקן החשמל, כולל תיעוד מפורט</b></p>
+      </div><div class="home-services-card">
+        <div class="zappy-icon-alignment-wrapper" style="display: flex; width: 100%; justify-content: center;"><svg data-element-type="icon" data-icon-type="svg" class="home-services-icon" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" data-element-id="zappy-temp-icon-1773747731141-5xz4o657g" style="width: 50px !important; height: 50px !important; color: rgb(255, 212, 0);" width="50" height="50" data-size-adjusted="true">
           <circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="2"></circle>
           <path d="M24 24L24 42" stroke="currentColor" stroke-width="2"></path>
           <path d="M18 28L24 24L30 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           <rect x="14" y="38" width="20" height="6" rx="1" stroke="currentColor" stroke-width="2"></rect>
           <line x1="20" y1="16" x2="28" y2="16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line>
-        </svg>
-        <h3>Lighting &amp; Smart Switches</h3>
-        <p>Interior and exterior lighting design, smart home integration, and energy-efficient LED installations. Professional wiring with clean, concealed runs.</p>
-      </div>
-    </div>
+        </svg></div>
+        <h3 class="zappy-editable" style="text-align: center;">
 
-    <div class="home-services-secondary">
-      <div class="home-services-mini-block">
-        <h3>Response &amp; Scheduling</h3>
-        <p>Same-day service available for emergencies. Flexible scheduling for residential and commercial projects. Serving the greater metro area with prompt arrival times and clear communication.</p>
-      </div>
+פתרונות תאורה וחשמל חכם
 
-      <div class="home-services-mini-block">
-        <h3>Safety &amp; Compliance</h3>
-        <p>All work performed by licensed master electricians following DIR certification standards. Comprehensive safety inspections, code compliance verification, and detailed project documentation included.</p>
-      </div>
-    </div>
+</h3>
+        <p class="zappy-editable" style="text-align: right;"><b>
+
+תכנון תאורת פנים וחוץ, שילוב מערכות בית חכם והתקנת תאורת LED חסכונית באנרגיה<br>&nbsp;חיווט מקצועי בגימור נקי ונסתר</b></p>
+      </div></div>
+
+    <div class="home-services-secondary zappy-preserve-css-grid" id="zappy-auto-grid-1773747678518-gkn4bm" data-zappy-auto-grid="true" data-original-item-width="464" data-original-gap="32px" style="display: grid; grid-template-columns: 464px 464px;"><div class="home-services-mini-block">
+        <h3 class="zappy-editable" style="text-align: center;">זמינות</h3>
+        <p class="zappy-editable" style="text-align: right;"><b>.שירות באותו היום למקרי חירום<br>מענה מהיר ושירות אדיב בכל אזור המרכז והסביבה</b></p>
+      </div><div class="home-services-mini-block">
+        <h3 class="zappy-editable" style="text-align: center;">בטיחות ואמינות</h3>
+        <p class="zappy-editable" style="text-align: right;"><b>
+
+ביצוע כלל עבודות החשמל נעשה בכפוף לתקני הבטיחות וההסמכה הגבוהים ביותר
+
+</b></p>
+      </div></div>
   </div>
 
   <div class="home-services-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="home-services-accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
+        <lineargradient id="home-services-accent-line" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#FFD400;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#FFD400;stop-opacity:0.3"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,100 L0,20 L1200,0 L1200,100 Z" fill="#0B1C33"></path>
       <line x1="0" y1="20" x2="1200" y2="0" stroke="url(#home-services-accent-line)" stroke-width="2"></line>
@@ -884,51 +898,50 @@
 
 <section class="home-value-proposition-section" data-layout-spec="Home-value-proposition">
   <div class="value-prop-container">
-    <div class="value-prop-grid">
-      <div class="value-prop-content">
-        <h2>Why clients choose certified electricians</h2>
-        <p class="value-prop-intro">Every connection matters. Every wire tells a story of precision, trust, and unwavering commitment to safety. We don't just fix electrical issues—we build lasting confidence in your home or business.</p>
+    <div class="value-prop-grid zappy-preserve-css-grid" style="display: grid; grid-template-columns: 570px 570px;" id="zappy-auto-grid-1773747678526-99f72z" data-zappy-auto-grid="true" data-zappy-grid-align="start" data-original-item-width="570" data-original-gap="60px"><div class="value-prop-content">
+        <h2 class="zappy-editable" style="text-align: right;">?למה לקחת חשמלאי מורשה</h2>
+        <p class="value-prop-intro zappy-editable" style="text-align: right;">.כל חיבור חשוב. אמון ומחויבות בלתי מתפשרת לבטיחות. <br>&nbsp;.בונים עבורכם ביטחון ושקט נפשי לאורך זמן, בבית או בעסק
+
+</p>
         <div class="value-prop-list">
-          <p class="value-prop-item">Fully licensed and certified master electricians on every job</p>
-          <p class="value-prop-item">Clear, transparent explanations before, during, and after service</p>
-          <p class="value-prop-item">Clean installations with proper labeling for future maintenance</p>
-          <p class="value-prop-item">Safety-first protocols that exceed industry standards</p>
+          <p class="value-prop-item zappy-editable">Fully licensed and certified master electricians on every job</p>
+          <p class="value-prop-item zappy-editable">Clear, transparent explanations before, during, and after service</p>
+          <p class="value-prop-item zappy-editable">Clean installations with proper labeling for future maintenance</p>
+          <p class="value-prop-item zappy-editable">Safety-first protocols that exceed industry standards</p>
         </div>
-      </div>
-      <div class="value-prop-specs">
+      </div><div class="value-prop-specs">
         <div class="spec-table">
           <div class="spec-row">
-            <div class="spec-label">Licensing &amp; Certification</div>
-            <div class="spec-value">DIR certified, master electrician credentials</div>
+            <div class="spec-label zappy-editable">Licensing &amp; Certification</div>
+            <div class="spec-value zappy-editable">DIR certified, master electrician credentials</div>
           </div>
           <div class="spec-row">
-            <div class="spec-label">Insured Work</div>
-            <div class="spec-value">Full liability &amp; workers' compensation coverage</div>
+            <div class="spec-label zappy-editable">Insured Work</div>
+            <div class="spec-value zappy-editable">Full liability &amp; workers' compensation coverage</div>
           </div>
           <div class="spec-row">
-            <div class="spec-label">Safety-First Process</div>
-            <div class="spec-value">Comprehensive pre-work inspection &amp; testing</div>
+            <div class="spec-label zappy-editable">Safety-First Process</div>
+            <div class="spec-value zappy-editable">Comprehensive pre-work inspection &amp; testing</div>
           </div>
           <div class="spec-row">
-            <div class="spec-label">Clean Install &amp; Labeling</div>
-            <div class="spec-value">Organized wiring with clear circuit documentation</div>
+            <div class="spec-label zappy-editable">Clean Install &amp; Labeling</div>
+            <div class="spec-value zappy-editable">Organized wiring with clear circuit documentation</div>
           </div>
           <div class="spec-row">
-            <div class="spec-label">Post-Visit Support</div>
-            <div class="spec-value">12-month workmanship warranty &amp; follow-up</div>
+            <div class="spec-label zappy-editable">Post-Visit Support</div>
+            <div class="spec-value zappy-editable">12-month workmanship warranty &amp; follow-up</div>
           </div>
         </div>
-      </div>
-    </div>
+      </div></div>
   </div>
   <div class="value-prop-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="dividerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <lineargradient id="dividerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:#4B5563;stop-opacity:0.4"></stop>
           <stop offset="50%" style="stop-color:#4B5563;stop-opacity:0.25"></stop>
           <stop offset="100%" style="stop-color:#4B5563;stop-"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,100 L0,45 Q100,42 200,48 T400,45 Q500,48 600,42 T800,45 Q900,48 1000,42 T1200,45 L1200,100 Z" fill="#F5F7FA"></path>
       <path d="M0,45 Q100,42 200,48 T400,45 Q500,48 600,42 T800,45 Q900,48 1000,42 T1200,45" stroke="url(#dividerGradient)" stroke-width="1.5" fill="#F5F7FA"></path>
@@ -981,7 +994,7 @@
   
   <!-- Notched Divider to Next Section -->
   <div class="home-case-studies-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 60" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0,60 L0,0 L80,0 L80,20 L100,20 L100,0 L200,0 L200,20 L220,20 L220,0 L320,0 L320,20 L340,20 L340,0 L440,0 L440,20 L460,20 L460,0 L560,0 L560,20 L580,20 L580,0 L680,0 L680,20 L700,20 L700,0 L800,0 L800,20 L820,20 L820,0 L920,0 L920,20 L940,20 L940,0 L1040,0 L1040,20 L1060,20 L1060,0 L1200,0 L1200,60 Z" fill="#0B1C33"></path>
     </svg>
   </div>
@@ -999,11 +1012,11 @@
         <p class="testimonial-quote">"Nati arrived exactly on time and diagnosed the issue within minutes. The repair was clean, professional, and he explained everything clearly. Highly recommend for residential work."</p>
         <p class="testimonial-author">David Cohen, Homeowner – Kitchen Rewiring</p>
         <div class="testimonial-rating">
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
       </div>
 
@@ -1011,11 +1024,11 @@
         <p class="testimonial-quote">"Fast response time and exceptional quality. Nati upgraded our commercial panel and installed new outlets without disrupting business operations. True professionals."</p>
         <p class="testimonial-author">Sarah Levi, Property Manager – Office Building Upgrade</p>
         <div class="testimonial-rating">
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
       </div>
 
@@ -1023,11 +1036,11 @@
         <p class="testimonial-quote">"We needed emergency lighting repairs and Nati responded within the hour. The work was thorough, safe, and passed inspection the first time. Excellent service for commercial clients."</p>
         <p class="testimonial-author">Michael Stein, Small Business Owner – Retail Store Lighting</p>
         <div class="testimonial-rating">
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
-          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+          <svg aria-hidden="true" width="16" height="16" viewbox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
         </div>
       </div>
     </div>
@@ -1049,13 +1062,13 @@
   </div>
 
   <div class="home-testimonials-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="testimonials-wave-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+        <lineargradient id="testimonials-wave-fade" x1="0%" y1="0%" x2="100%" y2="0%">
           <stop offset="0%" style="stop-color:var(--bg-dark);stop-opacity:1"></stop>
           <stop offset="85%" style="stop-color:var(--bg-light);stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:var(--bg-light);stop-opacity:0.6"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,100 L0,45 Q100,48 200,42 T400,45 Q500,42 600,48 T800,42 Q900,45 1000,48 T1200,30 L1200,100 Z" fill="var(--bg-light)"></path>
     </svg>
@@ -1111,13 +1124,13 @@
   </div>
 
   <div class="home-stats-divider-wrapper">
-    <svg aria-hidden="true" viewBox="0 0 1200 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+    <svg aria-hidden="true" viewbox="0 0 1200 100" preserveaspectratio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
-        <linearGradient id="home-stats-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <lineargradient id="home-stats-divider-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
           <stop offset="0%" style="stop-color:#4B5563;stop-opacity:1"></stop>
           <stop offset="50%" style="stop-color:#1A2332;stop-opacity:1"></stop>
           <stop offset="100%" style="stop-color:#0B1F3B;stop-opacity:1"></stop>
-        </linearGradient>
+        </lineargradient>
       </defs>
       <path d="M0,100 L0,35 L600,50 L1200,35 L1200,100 Z" fill="#0B1C33"></path>
       <line x1="0" y1="35" x2="600" y2="50" stroke="#FFD400" stroke-width="1.5" opacity="0.6"></line>
@@ -1139,7 +1152,7 @@
         <p class="contact-invite">Need immediate assistance? Reach out directly and speak with a licensed electrician who can assess your situation and provide expert guidance.</p>
         
         <div class="contact-ctas">
-          <a href="tel:[business_phone]" class="btn-primary btn-contact">
+          <a href="tel:0505839814" class="btn-primary btn-contact">
             <i class="fas fa-phone" aria-hidden="true"></i>
             <span>Call Now</span>
           </a>
@@ -1195,7 +1208,7 @@
 
   <!-- Decorative Circuit Pattern -->
   <div class="circuit-pattern" aria-hidden="true">
-    <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <svg viewbox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
       <g opacity="0.06" stroke="currentColor" fill="none" stroke-width="1">
         <line x1="20" y1="20" x2="80" y2="20"></line>
         <circle cx="80" cy="20" r="3" fill="currentColor"></circle>
@@ -1242,13 +1255,13 @@
         <ul class="contact-list">
           <li>
             <i class="fas fa-envelope"></i>
-            <a href="mailto:[business_email]">[business_email]</a>
+            <a href="mailto:nati.amar72@gmail.com">nati.amar72@gmail.com</a>
           </li>
           <li>
             <i class="fas fa-phone"></i>
-            <a href="tel:[business_phone]">[business_phone]</a>
+            <a href="tel:0505839814">0505839814</a>
           </li>
-          <li><a href="/"><i class="fas fa-map-marker-alt"></i>
+          <li><a href="/"><i class="fas fa-map-marker-alt" data-element-type="icon" data-element-id="icon-1773746996581-jmxdqmdkl" data-icon-type="fontawesome" style="cursor: pointer;"></i>
             <span>[business_address]</span></a></li>
         </ul>
       </div>
@@ -1256,9 +1269,9 @@
       <div class="footer-column footer-social">
         <h3 class="footer-heading">עקבו אחרינו</h3>
         <div class="social-links">
-          <a href="[facebook_handle]" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="[instagram_handle]" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="#" aria-label="Facebook" style="display:none !important;"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram" style="display:none !important;"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/972505839814" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1281,7 +1294,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/972505839814" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
